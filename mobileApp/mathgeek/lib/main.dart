@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:mathgeek/practise.dart';
 import './examples.dart';
+import './practise.dart';
 
 void main() {
   runApp(HomePage());
@@ -41,7 +43,7 @@ class _HomePageState extends State<HomePage> {
           body: TabBarView(
             children: [
               ExamplesPage(),
-              Text('Practise'),
+              PractisePage(),
               Text('Solve'),
             ],
           ),
