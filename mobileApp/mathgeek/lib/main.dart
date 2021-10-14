@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './examples.dart';
 
 void main() {
   runApp(HomePage());
@@ -39,7 +40,7 @@ class _HomePageState extends State<HomePage> {
           ),
           body: TabBarView(
             children: [
-              Text('Examples'),
+              ExamplesPage(),
               Text('Practise'),
               Text('Solve'),
             ],
