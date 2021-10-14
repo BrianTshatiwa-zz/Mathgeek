@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './examples/numberpatterns/questions.dart';
 
 class ExamplesPage extends StatefulWidget {
   @override
@@ -51,7 +52,8 @@ class _ExamplesPageState extends State<ExamplesPage> {
               child: RaisedButton(
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10.0)),
-                onPressed: () => print("pressed"),
+                onPressed: () =>
+                    Navigator.pushNamed(context, '/numberpatterns'),
                 child: Text('Number Patterns'),
                 color: Colors.blue[600],
               ),
