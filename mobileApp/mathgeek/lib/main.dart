@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:mathgeek/examples/functions/answers.dart';
 import 'package:mathgeek/examples/numberpatterns/questions.dart';
 import 'package:mathgeek/examples/numberpatterns/answers.dart';
+import 'package:mathgeek/examples/functions/questions.dart';
 import 'package:mathgeek/practise.dart';
 import './examples.dart';
 import './practise.dart';
@@ -23,6 +25,8 @@ class _HomePageState extends State<HomePage> {
         '/examples': (context) => ExamplesPage(),
         '/numberpatterns': (context) => NumberPatternQuestions(),
         '/numberpatternsanswers': (context) => NumberPatternAnswers(),
+        '/functionsquestions': (context) => FunctionsQuestions(),
+        '/functionsanswers': (context) => FunctionsAnswers(),
       },
       debugShowCheckedModeBanner: false,
       home: DefaultTabController(

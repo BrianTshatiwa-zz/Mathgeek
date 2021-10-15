@@ -129,7 +129,8 @@ class _ExamplesPageState extends State<ExamplesPage> {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10.0),
                 ),
-                onPressed: () => print("pressed"),
+                onPressed: () =>
+                    Navigator.pushNamed(context, '/functionsquestions'),
                 child: Text('Functions'),
                 color: Colors.blue[600],
               ),
