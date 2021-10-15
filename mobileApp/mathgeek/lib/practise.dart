@@ -44,8 +44,7 @@ class _PractisePageState extends State<PractisePage> {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10.0),
                 ),
-                onPressed: () =>
-                    Navigator.pushNamed(context, '/trigonometryquestions'),
+                onPressed: () => Navigator.pushNamed(context, '/trigone'),
                 child: Text('Trigonometry'),
                 color: Colors.blue[600],
               ),
@@ -111,7 +110,7 @@ class _PractisePageState extends State<PractisePage> {
                   borderRadius: BorderRadius.circular(10.0),
                 ),
                 onPressed: () =>
-                    Navigator.pushNamed(context, '/financialmathsquestions'),
+                    Navigator.pushNamed(context, '/financialmathsone'),
                 child: Text('Financial Maths'),
                 color: Colors.blue[600],
               ),
