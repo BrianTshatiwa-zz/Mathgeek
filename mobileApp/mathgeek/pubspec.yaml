@@ -69,6 +69,18 @@ flutter:
     - assets/pictures/examples/financialmaths/
     - assets/pictures/examples/financialmaths/questions/
     - assets/pictures/examples/financialmaths/answers/
+    - assets/pictures/examples/analytical/
+    - assets/pictures/examples/analytical/questions/
+    - assets/pictures/examples/analytical/answers/
+    - assets/pictures/examples/trigonometry/
+    - assets/pictures/examples/trigonometry/questions/
+    - assets/pictures/examples/trigonometry/answers/
+    - assets/pictures/examples/statistics/
+    - assets/pictures/examples/statistics/questions/
+    - assets/pictures/examples/statistics/answers/
+    - assets/pictures/examples/algebra/
+    - assets/pictures/examples/algebra/questions/
+    - assets/pictures/examples/algebra/answers/
 
   # To add assets to your application, add an assets section, like this:
 

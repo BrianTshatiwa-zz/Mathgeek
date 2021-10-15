@@ -26,7 +26,8 @@ class _ExamplesPageState extends State<ExamplesPage> {
               child: RaisedButton(
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10.0)),
-                onPressed: () => print("pressed"),
+                onPressed: () =>
+                    Navigator.pushNamed(context, '/analyticalquestions'),
                 child: Text('Analytical Geometry'),
                 color: Colors.blue[600],
               ),
@@ -40,7 +41,8 @@ class _ExamplesPageState extends State<ExamplesPage> {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10.0),
                 ),
-                onPressed: () => print("pressed"),
+                onPressed: () =>
+                    Navigator.pushNamed(context, '/trigonometryquestions'),
                 child: Text('Trigonometry'),
                 color: Colors.blue[600],
               ),
