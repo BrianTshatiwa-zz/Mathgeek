@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:mathgeek/examples/algebra/answers.dart';
+import 'package:mathgeek/examples/algebra/questions.dart';
 import 'package:mathgeek/examples/analytical/answers.dart';
 import 'package:mathgeek/examples/analytical/questions.dart';
 import 'package:mathgeek/examples/financialmaths/answers.dart';
@@ -39,6 +41,8 @@ class _HomePageState extends State<HomePage> {
         '/analyticalanswers': (context) => AnalyticalAnswers(),
         '/trigonometryquestions': (context) => TrigQuestions(),
         '/trigonometryanswers': (context) => TrigAnswers(),
+        '/algebraquestions': (context) => AlgebraQuestions(),
+        '/algebraanswers': (context) => AlgebraAnswers(),
       },
       debugShowCheckedModeBanner: false,
       home: DefaultTabController(

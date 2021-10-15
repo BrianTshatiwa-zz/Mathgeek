@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class FinancialMathQuestions extends StatelessWidget {
+class AlgebraQuestions extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue[600],
-        title: Text('Financial Maths'),
+        title: Text('Algebra'),
       ),
       backgroundColor: Colors.white,
       body: SingleChildScrollView(
@@ -17,12 +17,15 @@ class FinancialMathQuestions extends StatelessWidget {
             ),
             Image(
                 image: AssetImage(
-                    "assets/pictures/examples/financialmaths/questions/a.PNG")),
+                    "assets/pictures/examples/algebra/questions/a.PNG")),
+            Image(
+                image: AssetImage(
+                    "assets/pictures/examples/algebra/questions/b.PNG")),
             Row(children: [
               Expanded(
                   child: RaisedButton(
                 onPressed: () =>
-                    Navigator.pushNamed(context, '/financialmathsanswers'),
+                    Navigator.pushNamed(context, '/algebraanswers'),
                 child: Text("Show answers"),
                 color: Colors.blue[600],
                 shape: RoundedRectangleBorder(

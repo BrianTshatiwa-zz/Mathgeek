@@ -59,7 +59,8 @@ class _ExamplesPageState extends State<ExamplesPage> {
               child: RaisedButton(
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10.0)),
-                onPressed: () => print("pressed"),
+                onPressed: () =>
+                    Navigator.pushNamed(context, '/algebraquestions'),
                 child: Text('Algebra'),
                 color: Colors.blue[600],
               ),

@@ -6,7 +6,7 @@ class FinancialMathsAnswers extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text('Functions'),
+        title: Text('Financial Maths'),
         backgroundColor: Colors.blue[600],
       ),
       body: SingleChildScrollView(
