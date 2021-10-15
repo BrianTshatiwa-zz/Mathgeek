@@ -161,7 +161,8 @@ class _ExamplesPageState extends State<ExamplesPage> {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10.0),
                 ),
-                onPressed: () => print("pressed"),
+                onPressed: () =>
+                    Navigator.pushNamed(context, '/financialmathsquestions'),
                 child: Text('Financial Maths'),
                 color: Colors.blue[600],
               ),

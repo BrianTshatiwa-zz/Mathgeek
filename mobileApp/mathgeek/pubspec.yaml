@@ -66,6 +66,9 @@ flutter:
     - assets/pictures/examples/functions/
     - assets/pictures/examples/functions/questions/
     - assets/pictures/examples/functions/answers/
+    - assets/pictures/examples/financialmaths/
+    - assets/pictures/examples/financialmaths/questions/
+    - assets/pictures/examples/financialmaths/answers/
 
   # To add assets to your application, add an assets section, like this:
 
