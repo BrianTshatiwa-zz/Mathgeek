@@ -16,35 +16,9 @@ class _PractisePageState extends State<PractisePage> {
         body: SingleChildScrollView(
             child: Column(
       children: [
-        Row(children: [
-          SizedBox(
-            width: 15.0,
-            height: 100.0,
-          ),
-          Expanded(
-            child: RaisedButton(
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10.0)),
-              onPressed: () => print("pressed"),
-              child: Text('Geometry'),
-              color: Colors.blue[600],
-            ),
-          ),
-          SizedBox(
-            width: 15.0,
-            height: 50.0,
-          ),
-          Expanded(
-            child: RaisedButton(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(10.0),
-              ),
-              onPressed: () => print("pressed"),
-              child: Text('Trigonometry'),
-              color: Colors.blue[600],
-            ),
-          )
-        ]),
+        SizedBox(
+          height: 100.0,
+        ),
         Row(
           children: [
             SizedBox(
@@ -55,41 +29,11 @@ class _PractisePageState extends State<PractisePage> {
               child: RaisedButton(
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10.0)),
-                onPressed: () => print("pressed"),
-                child: Text('Number Patterns'),
-                color: Colors.blue[600],
-              ),
-            ),
-            SizedBox(
-              width: 15.0,
-              height: 50.0,
-            ),
-            Expanded(
-              child: RaisedButton(
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10.0),
-                ),
-                onPressed: () => print("pressed"),
+                onPressed: () =>
+                    Navigator.pushNamed(context, '/analyticalfirst'),
                 child: Text('Analytical Geometry'),
                 color: Colors.blue[600],
               ),
-            )
-          ],
-        ),
-        Row(
-          children: [
-            SizedBox(
-              width: 15.0,
-              height: 100.0,
-            ),
-            Expanded(
-              child: RaisedButton(
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(10.0)),
-                onPressed: () => print("pressed"),
-                child: Text('Calculus'),
-                color: Colors.blue[600],
-              ),
             ),
             SizedBox(
               width: 15.0,
@@ -100,8 +44,9 @@ class _PractisePageState extends State<PractisePage> {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10.0),
                 ),
-                onPressed: () => print("pressed"),
-                child: Text('Euclidean Geometry'),
+                onPressed: () =>
+                    Navigator.pushNamed(context, '/trigonometryquestions'),
+                child: Text('Trigonometry'),
                 color: Colors.blue[600],
               ),
             )
@@ -117,7 +62,8 @@ class _PractisePageState extends State<PractisePage> {
               child: RaisedButton(
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10.0)),
-                onPressed: () => print("pressed"),
+                onPressed: () =>
+                    Navigator.pushNamed(context, '/algebraquestions'),
                 child: Text('Algebra'),
                 color: Colors.blue[600],
               ),
@@ -131,7 +77,8 @@ class _PractisePageState extends State<PractisePage> {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10.0),
                 ),
-                onPressed: () => print("pressed"),
+                onPressed: () =>
+                    Navigator.pushNamed(context, '/functionsquestions'),
                 child: Text('Functions'),
                 color: Colors.blue[600],
               ),
@@ -148,7 +95,8 @@ class _PractisePageState extends State<PractisePage> {
               child: RaisedButton(
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10.0)),
-                onPressed: () => print("pressed"),
+                onPressed: () =>
+                    Navigator.pushNamed(context, '/statisticsquestions'),
                 child: Text('Statistics'),
                 color: Colors.blue[600],
               ),
@@ -162,7 +110,8 @@ class _PractisePageState extends State<PractisePage> {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10.0),
                 ),
-                onPressed: () => print("pressed"),
+                onPressed: () =>
+                    Navigator.pushNamed(context, '/financialmathsquestions'),
                 child: Text('Financial Maths'),
                 color: Colors.blue[600],
               ),

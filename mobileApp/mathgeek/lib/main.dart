@@ -14,6 +14,8 @@ import 'package:mathgeek/examples/statistics/questions.dart';
 import 'package:mathgeek/examples/trigonometry/answers.dart';
 import 'package:mathgeek/examples/trigonometry/questions.dart';
 import 'package:mathgeek/practise.dart';
+import 'package:mathgeek/practises/analytical/analyticalfirst.dart';
+import 'package:mathgeek/practises/analytical/analyticalsecond.dart';
 import './examples.dart';
 import './practise.dart';
 
@@ -47,6 +49,8 @@ class _HomePageState extends State<HomePage> {
         '/algebraanswers': (context) => AlgebraAnswers(),
         '/statisticsquestions': (context) => StatisticsQuestions(),
         '/statisticsanswers': (context) => StatisticsAnswers(),
+        '/analyticalfirst': (context) => AnalyticalFirst(),
+        '/analyticalsecond': (context) => AnalyticalSecond(),
       },
       debugShowCheckedModeBanner: false,
       home: DefaultTabController(

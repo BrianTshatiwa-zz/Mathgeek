@@ -81,6 +81,7 @@ flutter:
     - assets/pictures/examples/algebra/
     - assets/pictures/examples/algebra/questions/
     - assets/pictures/examples/algebra/answers/
+    - assets/pictures/practises/analytical/
 
   # To add assets to your application, add an assets section, like this:
 
