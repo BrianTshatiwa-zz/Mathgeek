@@ -94,8 +94,7 @@ class _PractisePageState extends State<PractisePage> {
               child: RaisedButton(
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10.0)),
-                onPressed: () =>
-                    Navigator.pushNamed(context, '/statisticsquestions'),
+                onPressed: () => Navigator.pushNamed(context, '/statisticsone'),
                 child: Text('Statistics'),
                 color: Colors.blue[600],
               ),
