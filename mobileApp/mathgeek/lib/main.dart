@@ -9,6 +9,8 @@ import 'package:mathgeek/examples/functions/answers.dart';
 import 'package:mathgeek/examples/numberpatterns/questions.dart';
 import 'package:mathgeek/examples/numberpatterns/answers.dart';
 import 'package:mathgeek/examples/functions/questions.dart';
+import 'package:mathgeek/examples/statistics/answers.dart';
+import 'package:mathgeek/examples/statistics/questions.dart';
 import 'package:mathgeek/examples/trigonometry/answers.dart';
 import 'package:mathgeek/examples/trigonometry/questions.dart';
 import 'package:mathgeek/practise.dart';
@@ -43,6 +45,8 @@ class _HomePageState extends State<HomePage> {
         '/trigonometryanswers': (context) => TrigAnswers(),
         '/algebraquestions': (context) => AlgebraQuestions(),
         '/algebraanswers': (context) => AlgebraAnswers(),
+        '/statisticsquestions': (context) => StatisticsQuestions(),
+        '/statisticsanswers': (context) => StatisticsAnswers(),
       },
       debugShowCheckedModeBanner: false,
       home: DefaultTabController(
