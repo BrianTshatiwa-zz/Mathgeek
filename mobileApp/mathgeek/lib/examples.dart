@@ -13,66 +13,8 @@ class _ExamplesPageState extends State<ExamplesPage> {
         body: SingleChildScrollView(
             child: Column(
       children: [
-        Row(children: [
-          SizedBox(
-            width: 15.0,
-            height: 100.0,
-          ),
-          Expanded(
-            child: RaisedButton(
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10.0)),
-              onPressed: () => print("pressed"),
-              child: Text('Geometry'),
-              color: Colors.blue[600],
-            ),
-          ),
-          SizedBox(
-            width: 15.0,
-            height: 50.0,
-          ),
-          Expanded(
-            child: RaisedButton(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(10.0),
-              ),
-              onPressed: () => print("pressed"),
-              child: Text('Trigonometry'),
-              color: Colors.blue[600],
-            ),
-          )
-        ]),
-        Row(
-          children: [
-            SizedBox(
-              width: 15.0,
-              height: 100.0,
-            ),
-            Expanded(
-              child: RaisedButton(
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(10.0)),
-                onPressed: () =>
-                    Navigator.pushNamed(context, '/numberpatterns'),
-                child: Text('Number Patterns'),
-                color: Colors.blue[600],
-              ),
-            ),
-            SizedBox(
-              width: 15.0,
-              height: 50.0,
-            ),
-            Expanded(
-              child: RaisedButton(
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10.0),
-                ),
-                onPressed: () => print("pressed"),
-                child: Text('Analytical Geometry'),
-                color: Colors.blue[600],
-              ),
-            )
-          ],
+        SizedBox(
+          height: 100.0,
         ),
         Row(
           children: [
@@ -85,7 +27,7 @@ class _ExamplesPageState extends State<ExamplesPage> {
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10.0)),
                 onPressed: () => print("pressed"),
-                child: Text('Calculus'),
+                child: Text('Analytical Geometry'),
                 color: Colors.blue[600],
               ),
             ),
@@ -99,7 +41,7 @@ class _ExamplesPageState extends State<ExamplesPage> {
                   borderRadius: BorderRadius.circular(10.0),
                 ),
                 onPressed: () => print("pressed"),
-                child: Text('Euclidean Geometry'),
+                child: Text('Trigonometry'),
                 color: Colors.blue[600],
               ),
             )
