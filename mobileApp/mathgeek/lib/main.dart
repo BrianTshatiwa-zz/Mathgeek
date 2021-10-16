@@ -13,6 +13,7 @@ import 'package:mathgeek/examples/statistics/answers.dart';
 import 'package:mathgeek/examples/statistics/questions.dart';
 import 'package:mathgeek/examples/trigonometry/answers.dart';
 import 'package:mathgeek/examples/trigonometry/questions.dart';
+import 'package:mathgeek/machine_learning.dart';
 import 'package:mathgeek/practise.dart';
 import 'package:mathgeek/practises/algebra/algebraone.dart';
 import 'package:mathgeek/practises/algebra/algebrathree.dart';
@@ -98,7 +99,7 @@ class _HomePageState extends State<HomePage> {
             children: [
               ExamplesPage(),
               PractisePage(),
-              Text('Solve'),
+              MathAI(),
             ],
           ),
         ),
