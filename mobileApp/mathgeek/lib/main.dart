@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mathgeek/about.dart';
 import 'package:mathgeek/examples/algebra/answers.dart';
 import 'package:mathgeek/examples/algebra/questions.dart';
 import 'package:mathgeek/examples/analytical/answers.dart';
@@ -73,7 +74,7 @@ class _HomePageState extends State<HomePage> {
       },
       debugShowCheckedModeBanner: false,
       home: DefaultTabController(
-        length: 3,
+        length: 4,
         child: Scaffold(
           appBar: AppBar(
             title: Text("Mathgeek"),
@@ -91,6 +92,10 @@ class _HomePageState extends State<HomePage> {
                 Tab(
                   icon: Icon(Icons.science),
                   text: 'Solve',
+                ),
+                Tab(
+                  icon: Icon(Icons.perm_device_information_outlined),
+                  text: 'About',
                 )
               ],
             ),
@@ -100,6 +105,7 @@ class _HomePageState extends State<HomePage> {
               ExamplesPage(),
               PractisePage(),
               MathAI(),
+              About(),
             ],
           ),
         ),
