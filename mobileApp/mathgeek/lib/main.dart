@@ -17,9 +17,11 @@ import 'package:mathgeek/practise.dart';
 import 'package:mathgeek/practises/analytical/analyticalfirst.dart';
 import 'package:mathgeek/practises/analytical/analyticalsecond.dart';
 import 'package:mathgeek/practises/financialmaths/financialmathsone.dart';
+import 'package:mathgeek/practises/functions/functionstwo.dart';
 import 'package:mathgeek/practises/statistics/statisticsone.dart';
 import 'package:mathgeek/practises/trigonometry/trigone.dart';
 import 'package:mathgeek/practises/trigonometry/trigtwo.dart';
+import 'package:mathgeek/practises/functions/functionsone.dart';
 import './examples.dart';
 import './practise.dart';
 
@@ -59,6 +61,8 @@ class _HomePageState extends State<HomePage> {
         '/trigtwo': (context) => TrigTwo(),
         '/financialmathsone': (context) => FinancialMathsOne(),
         '/statisticsone': (context) => StatisticsOne(),
+        '/functionsone': (context) => FunctionsOne(),
+        '/functionstwo': (context) => FunctionsTwo(),
       },
       debugShowCheckedModeBanner: false,
       home: DefaultTabController(

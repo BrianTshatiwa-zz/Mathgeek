@@ -76,8 +76,7 @@ class _PractisePageState extends State<PractisePage> {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10.0),
                 ),
-                onPressed: () =>
-                    Navigator.pushNamed(context, '/functionsquestions'),
+                onPressed: () => Navigator.pushNamed(context, '/functionsone'),
                 child: Text('Functions'),
                 color: Colors.blue[600],
               ),
