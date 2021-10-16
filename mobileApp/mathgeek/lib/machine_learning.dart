@@ -28,6 +28,10 @@ class _MathAIState extends State<MathAI> {
           ),
         ),
         SizedBox(
+          height: 3.0,
+        ),
+        Text(answer),
+        SizedBox(
           height: 5.0,
         ),
         Row(children: [

@@ -16,7 +16,7 @@ class About extends StatelessWidget {
                     child: Container(
                         child: Center(
                           child: Text(
-                            "HELP",
+                            "INFO",
                             style: TextStyle(
                                 fontSize: 30, fontWeight: FontWeight.bold),
                           ),
@@ -46,9 +46,9 @@ class About extends StatelessWidget {
             Container(
                 child: Center(
               child: Text(
-                "Practise Mathematics"
-                "Get mathematics examples "
-                "You can also use the app's AI "
+                "Use this app for math quizes."
+                " Use this app to see math examples. "
+                "You can also use the app's AI"
                 " to solve your own math problems",
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 17),
