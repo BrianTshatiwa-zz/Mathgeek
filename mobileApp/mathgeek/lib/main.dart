@@ -14,6 +14,9 @@ import 'package:mathgeek/examples/statistics/questions.dart';
 import 'package:mathgeek/examples/trigonometry/answers.dart';
 import 'package:mathgeek/examples/trigonometry/questions.dart';
 import 'package:mathgeek/practise.dart';
+import 'package:mathgeek/practises/algebra/algebraone.dart';
+import 'package:mathgeek/practises/algebra/algebrathree.dart';
+import 'package:mathgeek/practises/algebra/algebratwo.dart';
 import 'package:mathgeek/practises/analytical/analyticalfirst.dart';
 import 'package:mathgeek/practises/analytical/analyticalsecond.dart';
 import 'package:mathgeek/practises/financialmaths/financialmathsone.dart';
@@ -63,6 +66,9 @@ class _HomePageState extends State<HomePage> {
         '/statisticsone': (context) => StatisticsOne(),
         '/functionsone': (context) => FunctionsOne(),
         '/functionstwo': (context) => FunctionsTwo(),
+        '/algebraone': (context) => AlgebraOne(),
+        '/algebratwo': (context) => AlgebraTwo(),
+        '/algebrathree': (context) => AlgebraThree(),
       },
       debugShowCheckedModeBanner: false,
       home: DefaultTabController(
