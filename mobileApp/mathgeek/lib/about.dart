@@ -47,53 +47,7 @@ class About extends StatelessWidget {
                 child: Center(
               child: Text(
                 "Use this app for math quizes."
-                " Use this app to see math examples. "
-                "You can also use the app's AI"
-                " to solve your own math problems",
-                textAlign: TextAlign.center,
-                style: TextStyle(fontSize: 17),
-              ),
-            )),
-            Row(
-              children: [
-                Expanded(
-                  child: Padding(
-                    padding: const EdgeInsets.all(25.0),
-                    child: Container(
-                        child: Center(
-                          child: Text(
-                            "DISCLAIMER",
-                            style: TextStyle(
-                                fontSize: 30, fontWeight: FontWeight.bold),
-                          ),
-                        ),
-                        width: 314,
-                        height: 62,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.only(
-                            topLeft: Radius.circular(20),
-                            topRight: Radius.circular(20),
-                            bottomLeft: Radius.circular(20),
-                            bottomRight: Radius.circular(20),
-                          ),
-                          boxShadow: [
-                            BoxShadow(
-                                color:
-                                    Color.fromRGBO(0, 0, 0, 0.3499999940395355),
-                                offset: Offset(0, 0),
-                                blurRadius: 20)
-                          ],
-                          color: Color.fromRGBO(11, 138, 255, 1),
-                        )),
-                  ),
-                ),
-              ],
-            ),
-            Container(
-                child: Center(
-              child: Text(
-                "Artificial Intelligence makes mistakes just as humans do, by using this app you agree not "
-                "to hold us liable for any wrong answers provided by the AI",
+                " Use this app to see math examples. ",
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 17),
               ),

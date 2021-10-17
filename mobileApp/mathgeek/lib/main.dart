@@ -74,7 +74,7 @@ class _HomePageState extends State<HomePage> {
       },
       debugShowCheckedModeBanner: false,
       home: DefaultTabController(
-        length: 4,
+        length: 3,
         child: Scaffold(
           appBar: AppBar(
             title: Text("Mathgeek"),
@@ -90,10 +90,6 @@ class _HomePageState extends State<HomePage> {
                   text: 'Practise',
                 ),
                 Tab(
-                  icon: Icon(Icons.science),
-                  text: 'Solve',
-                ),
-                Tab(
                   icon: Icon(Icons.perm_device_information_outlined),
                   text: 'About',
                 )
@@ -104,7 +100,6 @@ class _HomePageState extends State<HomePage> {
             children: [
               ExamplesPage(),
               PractisePage(),
-              MathAI(),
               About(),
             ],
           ),
